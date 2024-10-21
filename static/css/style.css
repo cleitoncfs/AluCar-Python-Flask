@@ -188,8 +188,18 @@ footer .secao-largura-limitada {
 }
 
 /* Whatsapp icon */
-.whatsapp-icon img{
-    position:fixed;
-    right:0;
-    bottom:0;
+.whatsapp-icon img {
+    position: fixed;
+    width:80px;
+    height:80px;
+    right: 0;
+    bottom: 0;
+}
+
+/* Ajuste para dispositivos móveis */
+@media (max-width: 768px) {
+    .whatsapp-icon img {
+        width: 50px; 
+        height: 50px; 
+    }
 }
